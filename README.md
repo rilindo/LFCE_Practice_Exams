@@ -3,3 +3,4 @@ This is a list of practice exams I made for myself to get ready for the Linux Fo
 ## Resources for LFCE prepation
 
 - http://www.tecmint.com/installing-network-services-and-configuring-services-at-system-boot/ 
+- https://linuxacademy.com/linux/training/course/name/linux-foundation-certified-systems-engineer
