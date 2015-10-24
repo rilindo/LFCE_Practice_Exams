@@ -11,8 +11,8 @@ Complete the tasks to the best of your ability. Use your best judgement when com
 
 Create two servers with two physical volumes (at least 5 gigabytes each) and two network interfaces connected.
 
-- server1.example.com
-- server2.example.com
+- server01.example.com
+- server02.example.com
 
 Install  the OS on one of the volumes using the default partitioning. Leave the other volume alone for the tasks.
 
