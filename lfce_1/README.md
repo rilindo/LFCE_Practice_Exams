@@ -29,12 +29,12 @@ Most of the work must be done with firewall and selinux enabled.
 ###Server 1
 
 1. Create a volume group call "servervg01" using the second physical volume. 
-2. Create a 100 Megabyte logical volume called web.
+2. Create a 100 megabyte logical volume called web.
 3. Mount the logical volume as /web with xfs as the default file system. It should be persistent.
 4. Create users Amy, River and Rory (all lowercase), with tmp123$ as the password. River should be the only one that have shell access. Also, Amy and Rory should have their home directory as /web.
 5. Ensure that Amy and Rory are in the group call "web".
 6. Ensure that /web can be updated by both Amy and Rory.
-7. Create an encrypted logical volume called private_data with the password of custardandfishsticks.
+7. Create a 10 megabyte encrypted logical volume called private_data with the password of custardandfishsticks.
 8. Create a directory call *private* under /web and mount the encrypted volume private_data. It should not be persistent.
 9. Create a secure virtual site called "web01.example.com" with the default document root under /web.
 10. Ensure that web01.example.com/private is accessible only from server2.
