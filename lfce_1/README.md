@@ -34,7 +34,7 @@ Most of the work must be done with firewall and selinux enabled.
 4. Create users Amy, River and Rory (all lowercase), with tmp123$ as the password. River should be the only one that have shell access. Also, Amy and Rory should have their home directory as /web.
 5. Ensure that Amy and Rory are in the group call "web".
 6. Ensure that /web can be updated by both Amy and Rory.
-7. Create a 10 megabyte encrypted logical volume called private_data with the password of custardandfishsticks.
+7. Create a 10 megabyte encrypted logical volume called private_data with the password of custardandfishsticks. The encrypted data volume should be called encrypted_data.
 8. Create a directory call *private* under /web and mount the encrypted volume private_data. It should not be persistent.
 9. Create a secure virtual site called "web01.example.com" with the default document root under /web.
 10. Ensure that web01.example.com/private is accessible only from server2.
