@@ -1,7 +1,7 @@
 This is a list of practice exams I made for myself to get ready for the Linux Foundation Certified Engineer (LFCE) exam. If you have any suggestions or questions, please post on the issue page or submit a pull request.
 ## Disclaimer
 
-I have not seen the exam and even if I did, I will not put any details about it in the practice exam. I am just going off from the exam objectives here:
+I have not seen the exam and even if I did, I would not disclose any details of the exam. I am just going off from the exam objectives here:
 
 https://training.linuxfoundation.org/certification/lfce
 
