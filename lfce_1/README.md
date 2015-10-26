@@ -57,4 +57,4 @@ Most of the work must be done with firewall and selinux enabled.
 
 1. Add IPs 192.168.1.10 and 192.168.2.20 on server1 and server2, respectively on the second interfaces. (use a different IP or network if in use or not available). 
 2. Configure dynamic routing between server1 and server2.
-3. Outbound finger services and should be blocked from anywhere except the same network.
+3. Outbound finger services should be blocked from anywhere except within your network.
