@@ -11,9 +11,9 @@ Complete the tasks to the best of your ability. Use your best judgement when com
 
 Create a single sserver with two physical volumes (at least 5 gigabytes each) and 1 network interface
 
-Install  the OS on one of the volumes using the default partitioning. Leave the other volume alone for the tasks.
+Install the OS on one of the volumes using the default partitioning. Leave the other volume alone for the tasks.
 
-The machine should be reachable to each other. They also must be able to download packages from the internet.
+The machine should be reachable to each other. It also must be able to download packages from the internet.
 
 Default password should be root1234.
 
