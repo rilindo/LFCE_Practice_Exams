@@ -45,7 +45,7 @@ Most of the work must be done with firewall and selinux enabled.
 1. Create a volume group call "servervg02" using the second physical volume.
 2. Create a 100 Megabyte logical volume called mail.
 3. Mount the logical volume as /var/spool/mail with xfs as the default file system. It should be persistent.
-4. Create users Clara, Micky, and Donna with tmp123$ as the password. Donna should have shell access, while Clara and Micky do not have shell access.
+4. Create users Clara, Micky, and Donna (all lowercase) with tmp123$ as the password. Only Donna should have shell access.
 5. Configure SMTP, ensuring that only machines on the same network as server1 and server2 can send emails. TLS should be enabled.
 6. Configure IMAP, with /var/spool/mail as the path. Verify that Clara, Micky and Donna can receive email.
 7. Install Squid and filter out facebook.com.
