@@ -14,7 +14,7 @@ Create two servers with two physical volumes (at least 5 gigabytes each) and two
 - server01.example.com
 - server02.example.com
 
-Install  the OS on one of the volumes using the default partitioning. Leave the other volume alone for the tasks.
+Install the OS on one of the volumes using the default partitioning. Leave the other volume alone for the tasks.
 
 Both machine should be reachable to each other. They also must be able to download packages from the internet.
 
